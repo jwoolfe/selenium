@@ -1,4 +1,4 @@
-#!/usr/bin/src python3
+#!/usr/bin/env python3
 # Selenium Tutorial #1
 # 
 from selenium import webdriver
