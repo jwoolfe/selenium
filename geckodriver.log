@@ -1,0 +1,8 @@
+1606262054023	geckodriver	INFO	Listening on 127.0.0.1:52543
+1606262054898	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/lq/dm3gkxh543g9ybp1__4mfy100000gn/T/rust_mozprofile89c6PW"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606262057041	Marionette	INFO	Listening on port 52560
+1606262057083	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.seattletimes.com/wp-content/plugins/st-advertising/dist/st-advertising-bundle.js?ver=1605207658, line 1: TypeError: window.helpers.getCookie(...).split is not a function
+JavaScript error: https://s0.2mdn.net/dfp/374719/4940920782/1604942299256/index.html, line 448: TypeError: studio.Enabler is undefined
+1606262074401	Marionette	INFO	Stopped listening on port 52560
