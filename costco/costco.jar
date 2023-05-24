@@ -1,0 +1,30 @@
+import java.util.regex.Pattern;
+import java.util.concurrent.TimeUnit;
+import org.junit.*;
+import static org.junit.Assert.*;
+import static org.hamcrest.CoreMatchers.*;
+import org.openqa.selenium.*;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.ui.Select;
+
+public class testCLass {
+    private WebDriver driver;
+    @Before
+    public void setup() throws Exception {
+        driver = new FirefoxDriver();
+    }
+
+@Test    
+public void testtestclass( throws Exception {
+    driver.get("https://costco.com")
+    Assert.assertEquals("Costco", driver.getTitle());
+    Assert.assertEquals("English", driver.findElement(By.FindByIdName("Title")).getText());
+    driver.findElement(By.FindByIdName("Title")).click();
+    Assert.assertEquals("Costco US Homepage", driver.getTitle());
+}
+
+@After
+    public void tearDown() throws Exception {
+        driver.quit();
+    }
+}

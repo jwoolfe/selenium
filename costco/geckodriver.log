@@ -390,3 +390,28 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
 1608676317036	Marionette	INFO	Listening on port 63910
 1608676317072	Marionette	WARN	TLS certificate errors will be ignored for this session
+1608738851731	Marionette	INFO	Stopped listening on port 62501
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1608738855820	Marionette	INFO	Stopped listening on port 63569
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1608738858378	Marionette	INFO	Stopped listening on port 63677
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1608738862433	Marionette	INFO	Stopped listening on port 63786
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1608738864391	Marionette	INFO	Stopped listening on port 63910
+1608738867520	Marionette	INFO	Stopped listening on port 63226
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1608738869815	Marionette	INFO	Stopped listening on port 63346
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
